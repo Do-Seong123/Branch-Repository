@@ -7,12 +7,13 @@ def partition(l, r, nums):
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
     # gksmsladl qhdngktk dnflskfk akstp
+    # skatks dnldp wj thskan cjfrkqdmf enfmsemt
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
 # anrndghk tkacjsfl ghkfurkdtks
-# for the right values.
+# qkfkatjfl qnfqusgkadms dnfl rltkddlftp
  
  
 def quicksort(l, r, nums):
