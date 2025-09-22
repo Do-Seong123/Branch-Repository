@@ -1,6 +1,5 @@
 // C program for Merge Sort
-#include <stdio.h>
-#include <stdlib.h>
+#wortm qkdakwj qjvmrk akfdlehlsk dho dofmf xodrjfh aksemffusmsrjwl
 
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]

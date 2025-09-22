@@ -1,19 +1,14 @@
 def partition(l, r, nums):
-    # ehdgoanfrhk qorentksdl akfmrh ekfgehfhr
     pivot, ptr = nums[r], l
     for i in range(l, r):
         if nums[i] <= pivot:
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
-    # gksmsladl qhdngktk dnflskfk akstp
-    # skatks dnldp wj thskan cjfrkqdmf enfmsemt
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
-# anrndghk tkacjsfl ghkfurkdtks
-# qkfkatjfl qnfqusgkadms dnfl rltkddlftp
  
  
 def quicksort(l, r, nums):
@@ -32,5 +27,4 @@ print(quicksort(0, len(example)-1, example))
  
 example = [2, 5, 6, 1, 4, 6, 2, 4, 7, 8]
 result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
-# eogks tkfka eogksdmfh rlfdl qhwjsgktp
 print(quicksort(0, len(example)-1, example))
